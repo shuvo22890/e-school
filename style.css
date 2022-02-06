@@ -1,0 +1,144 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btnBg{
+    background-color: #21B573;
+}
+
+header, .banner{
+    background: #F0FFF0;
+}
+
+header .logo{
+    max-width: 150px;
+}
+
+header .signIn{
+    max-width: 120px;
+}
+
+.banner .bannerInfo .slogan{
+    color: #FC541E;
+}
+
+.banner .bannerInfo h1 {
+    font-size: 42px;
+    color: #000;
+    line-height: 60px;
+}
+
+.banner .bannerInfo h1 span{
+    color: #21B573;
+}
+
+.banner .bannerInfo .bannerShortDesc{
+    line-height: 30px;
+}
+
+.features .singleFeature {
+    background: #f8fffb;
+    transition: .5s;
+}
+
+
+.features .singleFeature:hover {
+    box-shadow: 0 0 25px 0 #dbdada;
+    background: #ffffff;
+}
+
+.features .singleFeature h5 {
+    font-weight: 600;
+    color: #413960;
+}
+
+.courses h2, .courses singleCourse h4{
+    color: #413960;
+}
+
+.courses h2, .testimonial h2{
+    font-weight: 800;
+}
+
+.courses singleCourse p{
+    color: #585859;
+}
+
+.courses .singleCourse{
+    box-shadow: 0 0 25px 0 #d8d7d7;
+}
+
+.courses .singleCourse, .courses .singleCourse .courseThumb{
+    border-radius: 10px;
+}
+
+.courses .singleCourse .courseInfo img{
+    max-width: 25px;
+}
+
+.courses .singleCourse .courseInfo p{
+    font-size: 14px;
+}
+
+.testimonial .testWrap{
+    max-width: 768px;
+}
+
+.testimonial .testWrap img{
+    max-width: 200px;
+}
+
+.testimonial .testWrap p{
+    color: #000000;
+}
+
+footer{
+    background: #282531;
+}
+
+footer h6{
+    font-weight: 600;
+}
+
+footer ul li{
+    margin: 3px 0;
+}
+
+footer ul li a, footer .row p{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 991px){
+    .banner .bannerInfo h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .features .singleFeature h5{
+        font-size: 16px;
+    }
+
+    .features .singleFeature p{
+        font-size: 14px;
+    }
+
+    .courses .singleCourse h4{
+        font-size: 18px;
+    }
+
+    .courses .singleCourse p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .banner .bannerInfo h1 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .banner .bannerInfo .bannerShortDesc {
+        font-size: 14px;
+    }
+}
